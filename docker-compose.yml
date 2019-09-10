@@ -1,6 +1,6 @@
 version: '3'
 services:
-  off-chain-data:
+  holiday-sources:
     container_name: enrico
     ports:
       - "8181:80"
