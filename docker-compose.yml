@@ -1,0 +1,11 @@
+version: '3'
+services:
+  off-chain-data:
+    container_name: enrico
+    ports:
+      - "8181:80"
+    build: .
+    volumes:
+       - ./:/var/www/app
+    environment:
+      - APP_DEBUG=true
